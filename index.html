@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahnaf Musyaffa — Video Editor & Motion Designer</title>
+  <meta name="description" content="Portfolio of Ahnaf Musyaffa — Video Editor specializing in high-retention short-form content, digital advertising (UGC/commercial), and motion design.">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ahnaf Musyaffa — Video Editor Portfolio">
+  <meta property="og:description" content="High-retention short-form content, digital ads, and visual storytelling that converts.">
+  <meta property="og:type" content="website">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Minimalist Ambient Accent -->
+  <div class="ambient-subtle"></div>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="logo">
+        <span class="logo-name">AHNAF MUSYAFFA</span>
+        <span class="logo-role">/ VIDEO EDITOR</span>
+      </a>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Overview</a>
+        <a href="#portfolio" class="nav-link">Selected Works</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#skills" class="nav-link">Capabilities</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="Ahnaf_Musyaffa_CV.pdf" class="btn-nav mobile-show" target="_blank" download="Ahnaf_Musyaffa_CV.pdf" style="margin-bottom: 0.5rem;">Download CV (PDF)</a>
+        <a href="#contact" class="btn-nav mobile-show" id="navCtaMobile">Get in Touch</a>
+      </div>
+
+      <div class="nav-actions">
+        <a href="Ahnaf_Musyaffa_CV.pdf" class="btn-nav desktop-show" target="_blank" download="Ahnaf_Musyaffa_CV.pdf">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          CV (PDF)
+        </a>
+        <a href="#contact" class="btn-nav desktop-show" id="navCta">
+          Get in Touch
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero" id="home">
+    <div class="container hero-content">
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        <span>Available for select freelance & retainer projects</span>
+      </div>
+
+      <h1 class="hero-title" id="heroTitle">
+        Ahnaf Musyaffa
+      </h1>
+      
+      <p class="hero-role" id="heroRole">
+        Video Editor &amp; Motion Designer
+      </p>
+
+      <p class="hero-desc" id="heroDesc">
+        Transforming raw footage and creative concepts into clear, engaging, and high-retention video assets. Specializing in short-form content, performance digital ads, and kinetic visual storytelling.
+      </p>
+
+      <div class="hero-buttons">
+        <a href="#portfolio" class="btn btn-primary">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          View Selected Works
+        </a>
+        <a href="#" class="btn btn-secondary" id="btnHeroWhatsapp" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+          Inquire via WhatsApp
+        </a>
+        <a href="Ahnaf_Musyaffa_CV.pdf" class="btn btn-secondary" target="_blank" download="Ahnaf_Musyaffa_CV.pdf">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          Download CV (PDF)
+        </a>
+      </div>
+
+      <!-- Key Performance Metrics -->
+      <div class="stats-grid" id="statsGrid">
+        <!-- Rendered dynamically from data.js -->
+      </div>
+    </div>
+  </header>
+
+  <!-- PORTFOLIO SECTION -->
+  <section class="section portfolio-section" id="portfolio">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Portfolio</div>
+        <h2 class="section-title">Selected Works</h2>
+        <p class="section-subtitle">
+          Curated projects spanning short-form social content, high-performance UGC ads, commercial films, and kinetic motion design.
+        </p>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="filter-tabs" id="filterTabs">
+        <!-- Rendered dynamically from data.js -->
+      </div>
+
+      <!-- Video Grid -->
+      <div class="portfolio-grid" id="portfolioGrid">
+        <!-- Rendered dynamically from data.js -->
+      </div>
+
+      <div class="portfolio-cta">
+        <p>Looking for custom creative directions or platform-specific samples?</p>
+        <a href="#contact" class="btn btn-secondary">Discuss a Project</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE & EDUCATION SECTION -->
+  <section class="section experience-section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Background</div>
+        <h2 class="section-title">Experience &amp; Career</h2>
+        <p class="section-subtitle">
+          Professional track record in digital agencies, creative studios, and global brand media production.
+        </p>
+      </div>
+
+      <!-- Experience Timeline -->
+      <div class="timeline" id="experienceTimeline">
+        <!-- Rendered dynamically from data.js -->
+      </div>
+
+      <!-- Education Box -->
+      <div class="education-card" id="educationCard">
+        <!-- Rendered dynamically from data.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS & CAPABILITIES SECTION -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-tag">Expertise</div>
+        <h2 class="section-title">Capabilities &amp; Tools</h2>
+        <p class="section-subtitle">
+          End-to-end post-production skills paired with standard industry software workflows.
+        </p>
+      </div>
+
+      <div class="skills-wrapper">
+        <div class="skills-card">
+          <h3 class="card-subtitle">Editing Competencies</h3>
+          <div class="skills-grid" id="skillsGrid">
+            <!-- Rendered dynamically from data.js -->
+          </div>
+        </div>
+
+        <div class="tools-card">
+          <h3 class="card-subtitle">Software &amp; Environment</h3>
+          <div class="tools-pills" id="toolsList">
+            <!-- Rendered dynamically from data.js -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="contact-box">
+        <div class="section-header">
+          <div class="section-tag">Let's Connect</div>
+          <h2 class="section-title">Start a Project</h2>
+          <p class="section-subtitle">
+            Available for remote contracts, freelance commissions, and brand retainers worldwide.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Direct Channels -->
+          <div class="contact-cards">
+            <a href="#" class="contact-card" id="cardWhatsapp" target="_blank" rel="noopener">
+              <div class="card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+              </div>
+              <div class="card-info">
+                <span class="card-label">WhatsApp (Direct &amp; Fast)</span>
+                <span class="card-val" id="textWhatsapp">+62 851-5775-8606</span>
+              </div>
+              <span class="card-arrow">&rarr;</span>
+            </a>
+
+            <a href="#" class="contact-card" id="cardEmail">
+              <div class="card-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+              </div>
+              <div class="card-info">
+                <span class="card-label">Direct Email</span>
+                <span class="card-val" id="textEmail">musyaffaahnaf1@gmail.com</span>
+              </div>
+              <span class="card-arrow">&rarr;</span>
+            </a>
+
+            <div class="social-links-row">
+              <a href="#" class="btn-social" id="linkLinkedin" target="_blank" rel="noopener">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76a1.64 1.64 0 1 0 0-3.28 1.64 1.64 0 0 0 0 3.28m1.4 9.74v-8.37H5.06v8.37h2.8z"></path></svg>
+                LinkedIn
+              </a>
+              <a href="https://ahnaf-musyaffa-portofolio.netlify.app/" class="btn-social" id="linkWebsite" target="_blank" rel="noopener">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                Portfolio
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick WhatsApp Inquiry Form -->
+          <div class="quick-form-card">
+            <h3>Quick Inquiry</h3>
+            <p>Send a brief project scope directly to my WhatsApp:</p>
+            <form id="quickContactForm">
+              <div class="form-group">
+                <label for="senderName">Your Name / Company</label>
+                <input type="text" id="senderName" placeholder="e.g., Alex / Brand Studio" required>
+              </div>
+              <div class="form-group">
+                <label for="projectType">Project Scope</label>
+                <select id="projectType">
+                  <option value="Short-Form Content (Reels / TikTok / Shorts)">Short-Form Content (Reels / TikTok / Shorts)</option>
+                  <option value="UGC & Digital Ads">UGC & Digital Ads</option>
+                  <option value="Commercial & YouTube Long-form">Commercial & YouTube Long-form</option>
+                  <option value="Motion Graphics & VFX">Motion Graphics & VFX</option>
+                  <option value="Freelance Contract / Retainer">Freelance Contract / Retainer</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="senderMessage">Project Details &amp; Timeline</label>
+                <textarea id="senderMessage" rows="3" placeholder="Briefly describe your footage, deliverables, and target deadline..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13"></path><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                Send via WhatsApp
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-left">
+        <span class="footer-logo">AHNAF MUSYAFFA</span>
+        <p class="footer-sub">&copy; <span id="currentYear"></span> Ahnaf Musyaffa. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <a href="#home">Back to Top &uarr;</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- VIDEO POPUP MODAL -->
+  <div class="modal-overlay" id="videoModal">
+    <div class="modal-card">
+      <button class="modal-close" id="modalClose" aria-label="Close video player">&times;</button>
+      <div class="modal-video-wrapper" id="modalVideoContainer">
+        <!-- Dynamic Player embed -->
+      </div>
+      <div class="modal-info">
+        <div class="modal-meta">
+          <span class="modal-badge" id="modalCategory">Category</span>
+          <span class="modal-client" id="modalClient">Client</span>
+        </div>
+        <h3 class="modal-title" id="modalTitle">Video Title</h3>
+        <p class="modal-desc" id="modalDesc">Video description</p>
+        <div class="modal-tags" id="modalTags"></div>
+        <div class="modal-action-row" id="modalExternalLinkContainer"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MINIMAL FLOATING WHATSAPP BUTTON -->
+  <a href="#" class="floating-wa" id="floatingWa" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+  </a>
+
+  <!-- SCRIPTS -->
+  <script src="data.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
