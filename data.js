@@ -63,10 +63,10 @@ const PORTFOLIO_DATA = {
       title: "Video Editing Competition",
       category: "ads",
       client: "Fullfind x Sribu",
-      duration: "0:35",
+      duration: "1:26",
       aspectRatio: "horizontal", // 9:16 Vertical
       videoUrl: "videos/porto1.mp4",
-      thumbnail: "", // Otomatis diambil dari Behance / video!
+      thumbnail: "thumbs/porto1.jpg", // Otomatis diambil dari Behance / video!
       tags: ["UGC", "Fast Cuts", "Sound Design", "Kinetic Captions"]
     },
     {
@@ -74,10 +74,10 @@ const PORTFOLIO_DATA = {
       title: "EKIDO - UGC 1",
       category: "ads",
       client: "EKIDO Creative Agency",
-      duration: "0:35",
+      duration: "0:42",
       aspectRatio: "vertical", // 9:16 Vertical
       videoUrl: "videos/porto2.mp4",
-      thumbnail: "", // Otomatis diambil dari Behance / video!
+      thumbnail: "thumbs/porto2.jpg", // Otomatis diambil dari Behance / video!
       tags: ["UGC", "Fast Cuts", "Sound Design", "Kinetic Captions"]
     },
     {
@@ -85,10 +85,10 @@ const PORTFOLIO_DATA = {
       title: "EKIDO - UGC 2",
       category: "ads",
       client: "EKIDO Creative Agency",
-      duration: "0:35",
+      duration: "0:45",
       aspectRatio: "vertical", // 9:16 Vertical
       videoUrl: "videos/porto3.mp4",
-      thumbnail: "", // Otomatis diambil dari Behance / video!
+      thumbnail: "thumbs/porto3.jpg", // Otomatis diambil dari Behance / video!
       tags: ["UGC", "Fast Cuts", "Sound Design", "Kinetic Captions"]
     },
     {
@@ -96,10 +96,10 @@ const PORTFOLIO_DATA = {
       title: "EKIDO - UGC 3",
       category: "ads",
       client: "EKIDO Creative Agency",
-      duration: "0:35",
+      duration: "0:45",
       aspectRatio: "vertical", // 9:16 Vertical
       videoUrl: "videos/porto4.mp4",
-      thumbnail: "", // Otomatis diambil dari Behance / video!
+      thumbnail: "thumbs/porto4.jpg", // Otomatis diambil dari Behance / video!
       tags: ["UGC", "Fast Cuts", "Sound Design", "Kinetic Captions"]
     },
     {
@@ -107,10 +107,10 @@ const PORTFOLIO_DATA = {
       title: "EKIDO - UGC 4",
       category: "ads",
       client: "EKIDO Creative Agency",
-      duration: "0:35",
+      duration: "1:06",
       aspectRatio: "vertical", // 9:16 Vertical
       videoUrl: "videos/porto5.mp4",
-      thumbnail: "", // Otomatis diambil dari Behance / video!
+      thumbnail: "thumbs/porto5.jpg", // Otomatis diambil dari Behance / video!
       tags: ["UGC", "Fast Cuts", "Sound Design", "Kinetic Captions"]
     },
     {
@@ -121,7 +121,7 @@ const PORTFOLIO_DATA = {
       duration: "0:35",
       aspectRatio: "vertical", // 9:16 Vertical
       videoUrl: "videos/porto6.mp4",
-      thumbnail: "", // Otomatis diambil dari Behance / video!
+      thumbnail: "thumbs/porto6.jpg", // Otomatis diambil dari Behance / video!
       tags: ["UGC", "Fast Cuts", "Sound Design", "Kinetic Captions"]
     },
     {
@@ -129,10 +129,10 @@ const PORTFOLIO_DATA = {
       title: "HomeSavvy - UGC 12",
       category: "ads",
       client: "ICON - United States",
-      duration: "0:35",
+      duration: "0:52",
       aspectRatio: "vertical", // 9:16 Vertical
       videoUrl: "videos/porto7.mp4",
-      thumbnail: "", // Otomatis diambil dari Behance / video!
+      thumbnail: "thumbs/porto7.jpg", // Otomatis diambil dari Behance / video!
       tags: ["UGC", "Fast Cuts", "Sound Design", "Kinetic Captions"]
     },
     {
@@ -140,10 +140,10 @@ const PORTFOLIO_DATA = {
       title: "HomeSavvy - UGC 12",
       category: "ads",
       client: "ICON - United States",
-      duration: "0:35",
+      duration: "0:49",
       aspectRatio: "vertical", // 9:16 Vertical
       videoUrl: "videos/porto8.mp4",
-      thumbnail: "", // Otomatis diambil dari Behance / video!
+      thumbnail: "thumbs/porto8.jpg", // Otomatis diambil dari Behance / video!
       tags: ["UGC", "Fast Cuts", "Sound Design", "Kinetic Captions"]
     },
     {
@@ -151,10 +151,10 @@ const PORTFOLIO_DATA = {
       title: "HomeSavvy - UGC 12",
       category: "ads",
       client: "ICON - United States",
-      duration: "0:35",
+      duration: "2:26",
       aspectRatio: "vertical", // 9:16 Vertical
       videoUrl: "videos/porto9.mp4",
-      thumbnail: "", // Otomatis diambil dari Behance / video!
+      thumbnail: "thumbs/porto9.jpg", // Otomatis diambil dari Behance / video!
       tags: ["UGC", "Fast Cuts", "Sound Design", "Kinetic Captions"]
     },
     {
@@ -162,10 +162,10 @@ const PORTFOLIO_DATA = {
       title: "HomeSavvy - UGC 12",
       category: "ads",
       client: "ICON - United States",
-      duration: "0:35",
+      duration: "0:58",
       aspectRatio: "vertical", // 9:16 Vertical
       videoUrl: "videos/porto10.mp4",
-      thumbnail: "", // Otomatis diambil dari Behance / video!
+      thumbnail: "thumbs/porto10.jpg", // Otomatis diambil dari Behance / video!
       tags: ["UGC", "Fast Cuts", "Sound Design", "Kinetic Captions"]
     },
     

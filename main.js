@@ -136,6 +136,13 @@ function autoDetectVideoDuration(url, videoId, fallbackDuration) {
   const badge = document.getElementById(`duration-${videoId}`);
   if (!badge) return;
 
+  // Duration already set in data.js → no need to hit the network for metadata.
+  if (fallbackDuration && fallbackDuration.trim() !== "") {
+    badge.textContent = fallbackDuration;
+    badge.style.display = "inline-block";
+    return;
+  }
+
   const cleanUrl = (url || "").trim();
   const isDirect =
     /\.(mp4|webm|mov|m4v)(\?.*)?$/i.test(cleanUrl) ||
@@ -186,7 +193,28 @@ function renderVideoThumbnail(item) {
   const url = (item.videoUrl || "").trim();
   const customThumb = (item.thumbnail || "").trim();
 
-  // 1. Explicit custom thumbnail provided
+  const isLocalOrDirectVideo =
+    /\.(mp4|webm|mov|m4v)(\?.*)?$/i.test(url) || url.includes(".mp4");
+
+  // 1a. Direct video WITH a poster image: show the poster instantly and only
+  //     stream the video when the user hovers (preload="none" = 0 bytes on page load).
+  if (customThumb !== "" && isLocalOrDirectVideo) {
+    return `
+      <video
+        src="${url}"
+        poster="${customThumb}"
+        class="video-thumb"
+        preload="none"
+        muted
+        loop
+        playsinline
+        onmouseenter="this.play().catch(function(){})"
+        onmouseleave="this.pause()"
+      ></video>
+    `;
+  }
+
+  // 1b. Explicit custom thumbnail provided
   if (customThumb !== "") {
     return `<img src="${customThumb}" alt="${item.title}" class="video-thumb" loading="lazy" onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?w=800&auto=format&fit=crop&q=80'">`;
   }
@@ -519,7 +547,7 @@ function createVideoEmbedHtml(url) {
 
   if (isDirectVideo) {
     return `
-      <video controls autoplay playsinline controlsList="nodownload" style="width:100%;height:100%;max-height:80vh;object-fit:contain;background:#000;">
+      <video controls autoplay playsinline preload="auto" controlsList="nodownload" style="width:100%;height:100%;max-height:80vh;object-fit:contain;background:#000;">
         <source src="${cleanUrl}" type="video/mp4">
         Your browser does not support HTML5 video playback.
       </video>
