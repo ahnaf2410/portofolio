@@ -1,3 +1,5 @@
 .DS_Store
 *.mp4.tmp
 *_temp.mp4
+.wrangler
+.claude

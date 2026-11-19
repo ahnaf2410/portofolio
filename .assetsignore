@@ -5,3 +5,5 @@
 *.md
 wrangler.jsonc
 .claude
+.wrangler
+node_modules
